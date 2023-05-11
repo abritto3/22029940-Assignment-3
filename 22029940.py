@@ -22,7 +22,7 @@ def scaler(df):
 
 
 def backscale(arr, df_min, df_max):
-    """ Expects an array of normalised cluster centres and scales
+    """Expects an array of normalised cluster centres and scales
         it back. Returns numpy array.  """
 
     # convert to dataframe to enable pandas operations
